@@ -5,7 +5,7 @@ namespace RazorDeepDive.HtmlHelpers
 {
     public static class HtmlHelperExtensions
     {
-        public static HtmlPanelComponent PanelComponent(this IHtmlHelper html, string panelTitle)
+        public static HtmlPanelComponent AcmePanel(this IHtmlHelper html, string panelTitle)
         {
             html.ViewContext.Writer.Write(
                 "<div class=\"panel\">" +
