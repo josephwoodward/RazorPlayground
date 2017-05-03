@@ -8,6 +8,7 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 20px;
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
@@ -34,4 +35,28 @@ textarea {
     .carousel-caption {
         display: none;
     }
+}
+
+.panel {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.panel-inner {
+    padding: 20px;
+}
+
+.panel-title {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.panel-content {
+    padding-top: 20px;
+}
+
+.panel-content p:last-child {
+    margin-bottom: 0;
 }
