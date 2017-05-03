@@ -1,0 +1,27 @@
+﻿@*@tagHelperPrefix helper-*@
+
+@model RazorDeepDive.Controllers.ExampleViewModel
+@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+
+<!a href="http://www.google.co.uk">Hello World</!a>
+
+<input asp-for="Name" />
+
+<email>Support</email>
+
+<div>
+    <p>Component 1</p>
+    <div>
+        @await Component.InvokeAsync("Box", new {maxPriority = 2, isDone = false})
+    </div>
+    <p>Component 2</p>
+    <vc:box></vc:box>
+</div>
+
+
+
+<p>Use this area to provide additional information.</p>
