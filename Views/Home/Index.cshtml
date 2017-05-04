@@ -1,5 +1,10 @@
-﻿
-@using (Html.AcmePanel("Hello World"))
+﻿@addTagHelper *, RazorDeepDive
+
+@using (Html.AcmePanel("Welcome"))
 {
     <p>Welcome back, please select from the following options</p>
 }
+
+<acme-panel title="Welcome">
+    <p>Hello Joe, How are you?</p>
+</acme-panel>
