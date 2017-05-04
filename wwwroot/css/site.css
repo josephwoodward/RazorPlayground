@@ -29,6 +29,12 @@ textarea {
     width: 100%;
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0 0 20px;
+}
+
 /* Hide/rearrange for smaller screens */
 @media screen and (max-width: 767px) {
     /* Hide captions */
@@ -59,4 +65,25 @@ textarea {
 
 .panel-content p:last-child {
     margin-bottom: 0;
+}
+
+.contact-item {
+    text-align: center;
+    padding: 0 20px 0 0;
+}
+
+.contact-item img {
+    width: 120px;
+    height: 120px;
+}
+
+.contact-item:hover img {
+    opacity: 0.5;
+}
+
+.contact-item p {
+    font-weight: bold;
+    margin: 10px 0 20px;
+    width: 120px;
+    height: 40px;
 }
