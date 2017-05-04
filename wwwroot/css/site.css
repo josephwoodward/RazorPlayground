@@ -70,6 +70,7 @@ h2 {
 .contact-item {
     text-align: center;
     padding: 0 20px 0 0;
+    cursor: pointer;
 }
 
 .contact-item img {
