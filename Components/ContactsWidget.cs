@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace RazorDeepDive.Components
 {
-    public class ContactWidget : ViewComponent
+    public class ContactsWidget : ViewComponent
     {
         public async Task<IViewComponentResult> InvokeAsync()
         {

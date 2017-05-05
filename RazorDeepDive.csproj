@@ -12,7 +12,11 @@
     <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Components" />
     <Folder Include="HtmlHelpers" />
+    <Folder Include="HtmlHelpers" />
+    <Folder Include="Views\Shared\Components\ContactWidget" />
+    <Folder Include="wwwroot\images\profile" />
     <Folder Include="wwwroot\images\profile" />
   </ItemGroup>
 </Project>

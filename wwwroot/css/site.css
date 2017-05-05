@@ -45,7 +45,7 @@ h2 {
 
 .panel {
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .panel-inner {
@@ -69,8 +69,9 @@ h2 {
 
 .contact-item {
     text-align: center;
-    padding: 0 20px 0 0;
+    margin: 0 20px 0 0;
     cursor: pointer;
+    display: block;
 }
 
 .contact-item img {
