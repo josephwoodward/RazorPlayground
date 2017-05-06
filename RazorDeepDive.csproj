@@ -14,5 +14,9 @@
   <ItemGroup>
     <Folder Include="HtmlHelpers" />
     <Folder Include="TagHelpers" />
+    <Folder Include="TagHelpers" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="TagHelpers\ConditionTagHelper.cs" />
   </ItemGroup>
 </Project>
